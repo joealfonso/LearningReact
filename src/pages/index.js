@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import Card from '../components/card';
 
 const IndexPage = () => (
+  <div>
   <div className="Hero">
     <div className="HeroGroup">
       <h1>Headline for my site</h1>
@@ -51,6 +52,7 @@ const IndexPage = () => (
       title="ARKit 2"
       text="10 sections"
       image={require('../images/wallpaper4.jpg')} />
+</div>
 </div>
 
 )
